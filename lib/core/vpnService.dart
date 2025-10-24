@@ -23,11 +23,7 @@ class VpnService {
   static Future<List<VpnServer>> getMyServers() async {
     return await loadServers('my_servers.json');
   }
-
-  static Future<List<VpnServer>> getFavoriteServers() async {
-    return await loadServers('favorite_servers.json');
-  }
-
+  
   static Future<void> updateFavoriteServers(List<VpnServer> allServers, List<VpnServer> myServers) async {
     final List<VpnServer> allFavoriteServers = [
       ...allServers.where((server) => server.isFavorite),

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "city": "Берлин",
+    "ping": "120 мс",
+    "country": "Германия",
+    "isFavorite": false
+  },
+  {
+    "id": "2",
+    "city": "Берлин", 
+    "ping": "120 мс",
+    "country": "Германия",
+    "isFavorite": false
+  },
+  {
+    "id": "3",
+    "city": "Вашингтон",
+    "ping": "120 мс",
+    "country": "США",
+    "isFavorite": false
+  },
+  {
+    "id": "4",
+    "city": "Вашингтон",
+    "ping": "120 мс",
+    "country": "США",
+    "isFavorite": false
+  }
+]

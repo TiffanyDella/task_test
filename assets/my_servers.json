@@ -1,0 +1,9 @@
+[
+  {
+    "id": "my1",
+    "city": "Берлин",
+    "ping": "120 мс",
+    "country": "Мои",
+    "isFavorite": false
+  }
+]
